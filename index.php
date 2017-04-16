@@ -14,6 +14,19 @@
 <div>
   <?php
     echo 2 + 3;
-    echo "Hallo Bo!";
+    // <!-- Punkt bedeutet 'und' -->
+    echo "Hallo Welt" . "!";
    ?>
 </div>
+
+<?php
+  $word = "Hallo Bora";
+  echo $word;
+?>
+<br />
+<?php
+  $a = 5;
+  $b = 6;
+
+  echo $a + $b;
+?>
